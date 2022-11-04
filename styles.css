@@ -4,15 +4,18 @@ body{
 .main {
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 .intro{
     align-items: center;
+    font-size: 16px;
 }
 .me{
-    max-width: 400px;
+    max-width: 420px;
     text-align: center;
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 30px;
     
 }
 h1{
@@ -20,7 +23,7 @@ h1{
 }
 .imgBox{
     border: 3px solid  #2f604f;
-    padding: 7px;
+    padding: 10px;
 }
 .mePic{
     height: 350px;
@@ -33,48 +36,72 @@ h1{
 .mainIntro{
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style:italic
+    font-style:italic;
+    font-size: 18px;
 }
-p{
-    text-align: left;
-}
-.sweetWaterStorage{
+.imageBtn {
     height: 100%;
+}
+.imageBtn:hover {
+    border-color: black;
+    box-shadow: rgb(144, 144, 144) 3px 3px 3px;
+   opacity: .75;
 }
 .portfolioSquares{
     background-color: rgb(163, 59, 14);
+    margin: 0 10px;
+}
+.portfolioSquares .col {
     padding: 10px;
     margin: 10px;
+    /* height: 430px; */
 }
-.sws {
+.greenbg {
     background-color: #2f604f;
-    padding: 10px;
 }
-   
-.familySelfie1 {
-    justify-content: center;
-    align-items: center;
-    height: 250px;
+.redbg {
+    background-color:#b74c1e;
 }
-.familySquares{
-    background-color: rgb(163, 59, 14);
-    padding-top: 20px;
-    padding-bottom: 5px;
+.offset-left {
+    margin-left: -50px;
 }
-.socialLinks{
-    color: #2f604f;
-    
-    
+.offset-right {
+    margin-right: -50px;
+}
 
+ .familySelfie{
+    justify-content: center;
+    padding: 0 20px 20px 0;
+    height: 175px;
+ }
+
+
+.bottomSection {
+    background-color: white;
+    border-radius: 3px;
+    background-image: linear-gradient(#f9fafb, #d0ede3);
+    text-align: center;
+    padding: 20px 100px;
+    width: 90%;
+    font-size: 18px;
+}
+.quote{
+    height: 200px;
+    border: 2px solid #d0ede3;
 }
 .social{
-   font-size: 50px;
-}
-.hobbies{
-    padding: 20px;
-    margin-top: 10px;
-    background-color:  #2f604f;
-    color: white;
+    justify-content: center;
     text-align: center;
-
+    align-self: center;
+    font-size: 50px;
+    color:#2f604f
+}
+.social i{
+    padding: 0 15px;
+}
+a {
+    color: #2f604f;
+}
+a:hover {
+    color:#d0ede3;
 }
